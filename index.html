@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Сайт группы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script async src="./js/script.js"></script>
+</head>
+<body class="page">
+    <header class="header">
+        <img src="./img/logo.svg" alt="Логотип">
+        <nav>
+            <ul class="menu-header">
+                <li><a class="link-header active_link" href="#">Главная</a></li>
+                <li><a class="link-header" href="./pages/students.html">Студенты</a></li>
+                <li><a class="link-header" href="./pages/about.html">О курсе</a></li>
+                <li><a class="link-header" href="./pages/contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <a class="button_login">Войти</a>
+        <div class="login_popup">
+            <h2 class="login_heading">Войти на сайт</h2>
+            <form class="login_form">
+                <input class="input_login" name="login" type="text" placeholder="Введите ваш логин" required>
+                <input class="input_password" name="password" type="text" placeholder="Введите ваш пароль" required>
+                <button class="button_popup" type="submit">Войти</button>
+            </form>
+        </div>
+    </header>
+    <main class="main">
+        <h1 class="heading">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+        <div><img class="photo-class" src="./img/class2.png" alt="Класс"></div>
+            <h2 class="subtitle">Для кого этот курс</h2>
+            <div class="wrapper">
+                <p class="text1">Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой. В начале курса вы узнаете о том, как устроен Интернет и веб-сайты.</p> 
+                <p class="text1">Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером, создавать папки и файлы, устанавливать программы).</p>
+                <aside class="aside">
+                    <blockquote class="quote"><div><img src="./img/“.png" alt="Открытие кавычки"></div><div><img src="./img/uchimsya_vmeste.png" alt="Учимся вместе"></div><div class="close_quote"><img src="./img/”.png" alt="Закрытие кавычки"></div></blockquote>
+                </aside>
+            </div>
+            <h2 class="subtitle">Чему вы научитесь</h2>
+            <p class="text2">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля. Изучите основы языков <b>HTML</b>, <b>CSS</b> и немного <b>JavaScript</b>. Мы вместе сверстаем сайт нашей группы по этому макету. А затем вы <em class="sami">сами</em> сверстаете свои личные странички в качестве домашнего задания и мы выложим все это на сервер.</p>   
+    </main>
+    <footer class="footer">
+        <p class="copyright">2022 &copy; <a class="footer-text" href="https://learn.innopolis.university/Students">учебный центр</a></p>
+    </footer>
+</body>
+</html>
